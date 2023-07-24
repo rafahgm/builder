@@ -1,6 +1,6 @@
 # @rafahgm/builder
 
-Gera o bundle de vários arquivos utilizando Webpack e Babel
+Gera o bundle de vários arquivos utilizando Webpack e Babel (um bundle para cada arquivo)
 
 ## Uso
 ```builder --entrada "src/**/*.js" --saida "dest/"```
