@@ -1,0 +1,45 @@
+{
+  "name": "@rafahgm/builder",
+  "version": "2.0.0",
+  "description": "Observa arquivos JS e monta o build usando Webpack com Babel, suporta globs",
+  "main": "lib/index.js",
+  "bin": {
+    "builder": "bin/builder.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "keywords": [
+    "browser",
+    "webpack",
+    "es6",
+    "babel",
+    "watch"
+  ],
+  "author": "Rafael Morais <rafahgmorais@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "babel-loader": "^9.1.3",
+    "chalk": "^4.1.2",
+    "chokidar": "^3.5.3",
+    "fancy-log": "^2.0.0",
+    "glob": "^10.3.3",
+    "webpack": "^5.88.2",
+    "yargs": "^17.7.2",
+    "terser-webpack-plugin": "^5.3.9"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafahgm/builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rafahgm/builder/issues"
+  },
+  "homepage": "https://github.com/rafahgm/builder#readme"
+}
