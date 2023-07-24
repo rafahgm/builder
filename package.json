@@ -1,6 +1,6 @@
 {
   "name": "@rafahgm/builder",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Observa arquivos JS e monta o build usando Webpack com Babel, suporta globs",
   "main": "lib/index.js",
   "bin": {
